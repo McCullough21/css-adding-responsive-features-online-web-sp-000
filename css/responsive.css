@@ -15,5 +15,12 @@
  #logo h2 { font-size: 2.2em;}
  #social { top: 72px;}
  .col-3 p { -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;}
+}
 
+@media only screen and (max-width: 750px) {
+
+  #navbar nav a { display: 0.9em;}
+  .col-3 {-moz-column-count: 1; -webkit-column-count: 1; column-count: 1;}
+  .col-3 .col-1 .col-2 {width: 100%; left: 0; float: none;}
+  
 }
